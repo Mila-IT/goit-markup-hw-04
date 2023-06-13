@@ -548,17 +548,14 @@ img {
   justify-content: center;
   align-items: center;
 }
-.customer-link:hover .customer-icon {
-  fill: #404bbf;
-}
-.customer-link:focus .customer-icon {
-  fill: #404bbf;
-}
+
 .customer-link:hover {
   border: 1px solid var(--pressed-state);
+  color: #404bbf;
 }
 .customer-link:focus {
   border: 1px solid var(--pressed-state);
+  color: #404bbf;
 }
 .customer-icon {
   fill: currentColor;
